@@ -1,0 +1,8 @@
+venv
+adittion_file.py
+for_changing_folder_system.py
+main.py
+working_with_files
+.idea/
+__pycache__/
+configuration_file.py
