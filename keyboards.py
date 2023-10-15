@@ -14,8 +14,8 @@ for i in ['Похудение🍏', 'Паразиты🦠', 'Гипертони�
     keyboard3.insert(KeyboardButton(i))
 
 # Выберите ГЕО
-keyboard4 = ReplyKeyboardMarkup(resize_keyboard=True, row_width=3)
-for g in ['Микс🫱🏾‍🫲🏽', 'Европа👨🏼', 'Латам👨🏽‍🦱', 'Африка🧑🏿‍🦱', 'Арабы👳🏾‍♂️', 'Азия👨🏽‍🦲', '◀️Назад', 'В начало🏠']:
+keyboard4 = ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
+for g in ['Европа👨🏼', 'Латам👨🏽‍🦱', 'Африка🧑🏿‍🦱', 'Азия👨🏽‍🦲', '◀️Назад', 'В начало🏠']:
     keyboard4.insert(KeyboardButton(g))
 
 # Выберите язык
@@ -30,11 +30,3 @@ keyboard6 = ReplyKeyboardMarkup(resize_keyboard=True, row_width=3)
 for c in ['S pack\n(5 kreo)', 'M pack\n(10 kreo)', 'L pack\n(15 kreo)', '◀️Назад', 'В начало🏠']:
     keyboard6.insert(KeyboardButton(c))
 
-# Выберите формат креативов
-keyboard7 = ReplyKeyboardMarkup(resize_keyboard=True)
-keyboard7.add(KeyboardButton('↕️ Стандарт (две рамки)'))
-for t, p in enumerate(['⬆️ Рамка сверху', ' ⬇️ Рамка снизу', '⬅️ Рамка слева', '➡️ Рамка справа', '◀️Назад', 'В начало🏠']):
-    if t % 2 == 0:
-        keyboard7.add(KeyboardButton(p))
-    else:
-        keyboard7.insert(KeyboardButton(p))
